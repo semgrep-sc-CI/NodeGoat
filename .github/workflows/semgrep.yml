@@ -27,4 +27,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          semgrep ci --allow-local-builds
+          semgrep ci --allow-local-builds --supply-chain
